@@ -18,7 +18,7 @@ Vera is a unified human-centric subject-to-video framework for both single-perso
 
 ## 📊 Dataset
 
-We construct a large human identity dataset containing **1,001,891 aligned image and video pairs** for both single person and multi person subject to video generation. Rather than sampling reference frames directly from the target clip, we retrieve images of the same person from different clips. This provides explicit identity correspondence while naturally introducing variation in pose, expression, illumination, background, and motion context, which helps reduce shortcut copying. The resulting diverse reference sets support more reliable identity preservation and more accurate subject matching in multi person generation.
+We construct a large human identity dataset containing 1,001,891 aligned image and video pairs for both single person and multi person subject to video generation. Rather than sampling reference frames directly from the target clip, we retrieve images of the same person from different clips. This provides explicit identity correspondence while naturally introducing variation in pose, expression, illumination, background, and motion context, which helps reduce shortcut copying. The resulting diverse reference sets support more reliable identity preservation and more accurate subject matching in multi person generation.
 
 ## 🌟 Citation
 
