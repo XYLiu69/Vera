@@ -16,6 +16,10 @@
 
 Vera is a unified identity-faithful human subject-to-video generation framework for both single-person and multi-person scenarios. Unlike prior subject-to-video methods that mainly preserve coarse appearance, Vera focuses on fine-grained facial identity and maintains reliable identity–role–trajectory binding throughout generation. It is trained with a million-pair identity-aligned human image–video dataset and introduces Identity-Focal Masked Supervision (IFMS) to emphasize identity-critical facial regions, together with Reference-Aware Layer-wise Attention (RALA) to preserve stable reference anchors and selectively strengthen identity information at identity-sensitive layers. These designs enable Vera to generate natural, temporally coherent human videos while maintaining strong identity fidelity under pose, expression, viewpoint, motion, and interaction changes.
 
+## 📊 Dataset
+
+We construct a large-scale identity-aligned human image–video dataset containing **1,001,891 pairs** for both single-person and multi-person subject-to-video generation. Instead of sampling reference frames directly from the target clip, we perform **cross-clip identity retrieval** to pair each target video with reference images of the same person from different clips. This introduces natural variation in pose, expression, illumination, background, and motion context while reducing shortcut copying. The resulting dataset provides explicit person-level identity correspondence and diverse reference sets, supporting more robust identity preservation and identity–role binding during training.
+
 ## 🌟 Citation
 
 Please give us a star 🌟 and cite our paper if you find our work helpful.
