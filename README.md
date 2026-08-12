@@ -12,7 +12,6 @@
 
 **TL;DR:** Vera anchors each generated person to reference identity for faithful human video generation.
 
-Vera is a unified human-centric subject-to-video generation framework designed to preserve fine-grained human identity in both single-person and multi-person video generation. It combines identity-aligned data construction, identity-focused supervision, and reference-aware attention to maintain faithful identity under motion, pose, expression, viewpoint changes, and multi-person interactions.
 
 ## 🌟 Citation
 
